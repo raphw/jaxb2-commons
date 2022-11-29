@@ -2,7 +2,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.jvnet.jaxb2_commons</groupId>
+	<groupId>codes.rafael.jaxb2_commons</groupId>
 	<artifactId>jaxb2-basics-sample-po-maven</artifactId>
 	<version>${project.version}</version>
 	<packaging>jar</packaging>
@@ -14,12 +14,12 @@
 			<version>${jaxb.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.jvnet.jaxb2_commons</groupId>
+			<groupId>codes.rafael.jaxb2_commons</groupId>
 			<artifactId>jaxb2-basics-runtime</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>org.jvnet.jaxb2_commons</groupId>
+			<groupId>codes.rafael.jaxb2_commons</groupId>
 			<artifactId>jaxb2-basics-testing</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>
@@ -50,7 +50,7 @@
 					</args>
 					<plugins>
 						<plugin>
-							<groupId>org.jvnet.jaxb2_commons</groupId>
+							<groupId>codes.rafael.jaxb2_commons</groupId>
 							<artifactId>jaxb2-basics</artifactId>
 							<version>${project.version}</version>
 						</plugin>
@@ -61,8 +61,8 @@
 				<inherited>true</inherited>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<configuration>
-					<source>1.5</source>
-					<target>1.5</target>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 		</plugins>

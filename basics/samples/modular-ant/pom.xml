@@ -2,12 +2,12 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.jvnet.jaxb2_commons</groupId>
+	<groupId>codes.rafael.jaxb2_commons</groupId>
 	<artifactId>jaxb2-basics-sample-modular-ant</artifactId>
 	<packaging>pom</packaging>
 	<name>JAXB2 Basics - Sample [modular-ant]</name>
 	<parent>
-		<groupId>org.jvnet.jaxb2_commons</groupId>
+		<groupId>codes.rafael.jaxb2_commons</groupId>
 		<artifactId>jaxb2-basics-samples</artifactId>
 		<version>0.6.4-SNAPSHOT</version>
 	</parent>
@@ -17,19 +17,19 @@
 			<artifactId>junit</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.jvnet.jaxb2_commons</groupId>
+			<groupId>codes.rafael.jaxb2_commons</groupId>
 			<artifactId>jaxb2-basics</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.jvnet.jaxb2_commons</groupId>
+			<groupId>codes.rafael.jaxb2_commons</groupId>
 			<artifactId>jaxb2-basics-testing</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.jvnet.jaxb2_commons</groupId>
+			<groupId>codes.rafael.jaxb2_commons</groupId>
 			<artifactId>jaxb2-basics-ant</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.jvnet.jaxb2_commons</groupId>
+			<groupId>codes.rafael.jaxb2_commons</groupId>
 			<artifactId>jaxb2-basics-jaxb-xjc</artifactId>
 		</dependency>
 		<dependency>

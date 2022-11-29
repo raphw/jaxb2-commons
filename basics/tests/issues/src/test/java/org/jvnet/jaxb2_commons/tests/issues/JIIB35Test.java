@@ -1,6 +1,6 @@
 package org.jvnet.jaxb2_commons.tests.issues;
 
-import javax.xml.bind.JAXBContext;
+import jakarta.xml.bind.JAXBContext;
 
 import junit.framework.Assert;
 import junit.framework.TestCase;

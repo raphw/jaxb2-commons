@@ -2,10 +2,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.jvnet.jaxb2_commons</groupId>
+	<groupId>codes.rafael.jaxb2_commons</groupId>
 	<artifactId>jaxb2-basics-project</artifactId>
 	<packaging>pom</packaging>
-	<version>0.8.3-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>JAXB2 Basics - Project</name>
 	<url>http://static.highsource.org/jaxb2-basics</url>
 	<description>JAXB2 Basics is a part of JAXB2 Commons project which implements plugins and tools for JAXB 2.x reference implementation.</description>
@@ -17,7 +17,7 @@
 	<issueManagement>
 		<system>JIRA</system>
 		<url>http://jira.highsource.org/browse/JIIB</url>
-	</issueManagement>
+	</issueManagement>https://github.com/raphw/jaxb2-commons
 	<inceptionYear>2005</inceptionYear>
 	<mailingLists>
 		<mailingList>
@@ -58,9 +58,9 @@
 		</license>
 	</licenses>
 	<scm>
-		<connection>scm:svn:https://svn.java.net/svn/jaxb2-commons~svn/basics/trunk</connection>
-		<developerConnection>scm:svn:https://svn.java.net/svn/jaxb2-commons~svn/basics/trunk</developerConnection>
-		<url>http://java.net/projects/jaxb2-commons/sources/svn/show/basics/trunk</url>
+		<connection>scm:git:scm:git:git@github.com:raphw/jaxb2-commons.git</connection>
+		<developerConnection>scm:git:scm:git:git@github.com:raphw/jaxb2-commons.git</developerConnection>
+		<url>https://github.com/raphw/jaxb2-commons</url>
 	</scm>
 	<modules>
 		<module>ant</module>
@@ -105,7 +105,7 @@
 		</profile>
 	</profiles>
 	<properties>
-		<jaxb.version>2.2.5-2</jaxb.version>
+		<jaxb.version>4.0.1</jaxb.version>
 		<maven-jaxb2-plugin.version>0.9.0</maven-jaxb2-plugin.version>
 	</properties>
 	<dependencies>
@@ -119,27 +119,27 @@
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
-				<groupId>org.jvnet.jaxb2_commons</groupId>
+				<groupId>codes.rafael.jaxb2_commons</groupId>
 				<artifactId>jaxb2-basics-ant</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.jvnet.jaxb2_commons</groupId>
+				<groupId>codes.rafael.jaxb2_commons</groupId>
 				<artifactId>jaxb2-basics-runtime</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.jvnet.jaxb2_commons</groupId>
+				<groupId>codes.rafael.jaxb2_commons</groupId>
 				<artifactId>jaxb2-basics-tools</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.jvnet.jaxb2_commons</groupId>
+				<groupId>codes.rafael.jaxb2_commons</groupId>
 				<artifactId>jaxb2-basics-testing</artifactId>
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>org.jvnet.jaxb2_commons</groupId>
+				<groupId>codes.rafael.jaxb2_commons</groupId>
 				<artifactId>jaxb2-basics</artifactId>
 				<version>${project.version}</version>
 			</dependency>
@@ -156,9 +156,9 @@
 			</dependency>
 			<!-- JAXB -->
 			<dependency>
-				<groupId>javax.xml.bind</groupId>
-				<artifactId>jaxb-api</artifactId>
-				<version>2.1</version>
+				<groupId>jakarta.xml.bind</groupId>
+				<artifactId>jakarta.xml.bind-api</artifactId>
+				<version>4.0.0</version>
 			</dependency>
 			<dependency>
 				<groupId>com.sun.xml.bind</groupId>
@@ -264,8 +264,8 @@
 					<inherited>true</inherited>
 					<artifactId>maven-compiler-plugin</artifactId>
 					<configuration>
-						<source>1.6</source>
-						<target>1.6</target>
+						<source>1.8</source>
+						<target>1.8</target>
 					</configuration>
 				</plugin>
 				<plugin>
