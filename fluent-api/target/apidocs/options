@@ -1,0 +1,24 @@
+-classpath
+'/home/rafael/.m2/repository/com/sun/xml/bind/jaxb-xjc/4.0.1/jaxb-xjc-4.0.1.jar:/home/rafael/.m2/repository/com/sun/xml/bind/jaxb-core/4.0.1/jaxb-core-4.0.1.jar:/home/rafael/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.0/jakarta.xml.bind-api-4.0.0.jar:/home/rafael/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.0/jakarta.activation-api-2.1.0.jar:/home/rafael/.m2/repository/org/eclipse/angus/angus-activation/1.0.0/angus-activation-1.0.0.jar'
+-encoding
+'UTF-8'
+-protected
+-sourcepath
+'/home/rafael/workspace/oss/jaxb2-commons/fluent-api/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2010&#x2013;2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/rafael/workspace/oss/jaxb2-commons/fluent-api/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'JAXB2 Commons - Fluent API Plugin 3.0.0 API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/home/rafael/workspace/oss/jaxb2-commons/fluent-api/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'JAXB2 Commons - Fluent API Plugin 3.0.0 API'

@@ -7,8 +7,17 @@
 	<version>3.0.0-SNAPSHOT</version>
 
 	<name>JAXB2 Commons - Fluent API Plugin</name>
+	<inceptionYear>2010</inceptionYear>
 
-	<url>http://java.net/projects/jaxb2-commons/pages/fluent-api</url>
+	<url>https://github.com/raphw/jaxb2-commons</url>
+
+	<distributionManagement>
+		<repository>
+			<id>central</id>
+			<name>Nexus Release Repository</name>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+		</repository>
+	</distributionManagement>
 
 	<description>
 		Causes JAXB RI 2 XJC to generate additional methods that allows method chaining.
@@ -109,6 +118,22 @@
 						<goals>
 							<goal>sign</goal>
 						</goals>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5.3</version>
+				<executions>
+					<execution>
+						<id>default</id>
+						<goals>
+							<goal>perform</goal>
+						</goals>
+						<configuration>
+							<pomFileName>fluent-api/pom.xml</pomFileName>
+						</configuration>
 					</execution>
 				</executions>
 			</plugin>

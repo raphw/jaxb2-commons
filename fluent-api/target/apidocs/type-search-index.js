@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"org.jvnet.jaxb2_commons.plugin.fluent_api","l":"FluentApiPlugin"},{"p":"org.jvnet.jaxb2_commons.plugin.fluent_api","l":"FluentMethodInfo"},{"p":"org.jvnet.jaxb2_commons.plugin.fluent_api","l":"FluentMethodType"}];updateSearchResults();
